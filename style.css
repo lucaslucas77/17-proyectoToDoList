@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 4vh;
+    background-image: url(papel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(210, 105, 30, 0.42);
+    margin: auto;
+    border: 10px ridge rgba(167, 72, 31, 0.712);
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 5vw;
+    color: rgb(69, 38, 38);
+    width: fit-content;
+    padding: 2vw;
+}
+
+.input {
+    background-color: rgba(210, 105, 30, 0.221);
+    width: 50vw;
+    height: 5vh;
+    margin: 2rem;
+    padding: 20px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 2vw;
+    letter-spacing: 1vh;
+    font-weight: bold;
+    color: rgb(69, 38, 38);
+}
+
+.boton-agregar {
+    width: 4vw;
+    height: 4vw;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(210, 105, 30, 0.466);
+    color: rgb(69, 38, 38);
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    opacity: .7;
+}
+
+.boton-agregar:hover {
+    opacity: 1;
+}
+
+.item-input {
+    border-radius: 1vh;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    background-color: rgba(210, 105, 30, 0.221);
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+    color: rgb(69, 38, 38);
+    margin-top: 2vh;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: bold;
+    font-size: 3vh;
+    letter-spacing: 1vh;
+}
+
+::placeholder {
+    color: rgb(35, 28, 28);
+}
+
+.boton-remover, .boton-editar {
+    background-color: rgba(252, 122, 0, 0.265);
+    margin-left: 2vw;
+    padding: 1vh;
+}
